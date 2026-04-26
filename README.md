@@ -1,4 +1,4 @@
-# qwen_fast — 12x Qwen Inference on a Laptop GPU
+# qwen-engine-12x Qwen Inference on a Laptop GPU
 
 **Up to 14.7x faster than HuggingFace `generate()` on Qwen 2.5-0.5B.**
 **100% accurate — output is byte-identical to baseline (cos = 1.0).**
