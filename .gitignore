@@ -1,0 +1,72 @@
+# Proprietary engine - never commit
+qwen_fast/_internal/
+engine_source_backup_DO_NOT_SHIP.py
+*.pyd
+*.so
+*.dll
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Local benchmark outputs
+benchmark_report.json
+qwen_fast_run.nsys-rep
+qwen_fast_run.sqlite
+*.nsys-rep
+*.sqlite
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Other proprietary research files in this directory that should NOT
+# end up in a public repo of qwen_fast:
+bench_combined.py
+bench_cudagraph.py
+bench_cudagraph_spec.py
+bench_nsys.py
+bench_stack.py
+bench_lowrank.py
+spec_qwen.py
+spec_path_b.py
+verify_path_b.py
+qwen_compressed.py
+qwen_tree.py
+qwen_spectrum.py
+qwen_activation_manifold.py
+geometric_qwen.py
+anchor_inference.py
+emergent_algebra.py
+cartan_test.py
+cayley_hamilton.py
+depth_lie.py
+f4_dynamics.py
+root_inference.py
+spectral_reflection_test.py
+layer_geodesic.py
+jordan_inference.py
+jordan_baseline.py
+qwen_full.nsys-rep
+qwen_full.sqlite
+qwen_speedup_verified.png
+make_chart.py
+demo_screenshot.py
+debug_spec.py
+
+# Thermotron / J3O kernel research - separate proprietary track
+fused_*.py
+spectral_*.py
+*_kernel.py
+*_kernels.py
+oct_*.py
+toe_*.md
+PITCH.md
+
+# Roadmap experiments
+roadmap_vllm_beat/

@@ -1,0 +1,45 @@
+qwen_fast Engine - Proprietary License (Evaluation)
+====================================================
+
+Copyright (c) 2026 Rishabh. All rights reserved.
+
+The Engine (the file `qwen_fast/_internal/engine.py` and any binary form
+thereof, including precompiled `.pyd`, `.so`, `.dll`, or wheel artifacts
+produced from it) is proprietary software. It is provided to evaluators
+under the following terms:
+
+1. PERMITTED USE
+   You may install the Engine and run `benchmark.py` for the purpose of
+   evaluating its performance and correctness on hardware you own or
+   lawfully control.
+
+2. RESTRICTIONS
+   You may NOT:
+   (a) redistribute, sublicense, sell, lease, or transfer the Engine to
+       any third party;
+   (b) reverse-engineer, decompile, or disassemble any binary form of the
+       Engine, except to the extent expressly permitted by applicable law;
+   (c) modify the Engine source or create derivative works;
+   (d) embed the Engine in a commercial product or service;
+   (e) publish benchmark results that selectively misrepresent its
+       behavior (a fair representation of the JSON report from
+       `benchmark.py` is permitted).
+
+3. PUBLIC OUTPUTS
+   You may publicly share:
+   - The output of `benchmark.py`, including timings, throughput, and
+     workload hash, provided the report is unmodified.
+   - Screenshots of NVIDIA Nsight Systems reports captured while running
+     the Engine.
+   - Generated text outputs from the Engine.
+
+4. WARRANTY
+   THE ENGINE IS PROVIDED "AS IS" WITHOUT WARRANTY. THE COPYRIGHT HOLDER
+   IS NOT LIABLE FOR ANY DAMAGES ARISING FROM ITS USE.
+
+5. TERM
+   This evaluation license is valid for 90 days from receipt or until
+   superseded by a commercial license, whichever is sooner.
+
+For commercial use, redistribution rights, or extended evaluation:
+contact the copyright holder.

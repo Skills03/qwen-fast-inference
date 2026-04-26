@@ -1,0 +1,25 @@
+MIT License (benchmark + public API only)
+
+Copyright (c) 2026 Rishabh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of `benchmark.py` and `qwen_fast/__init__.py` (the "Public Files"), to deal
+in the Public Files without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Public Files, and to permit persons to whom the Public
+Files are furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Public Files.
+
+THE PUBLIC FILES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+PUBLIC FILES OR THE USE OR OTHER DEALINGS IN THE PUBLIC FILES.
+
+The "engine" component, distributed in `qwen_fast/_internal/engine.py`
+or any binary form thereof (the "Engine"), is NOT covered by this MIT
+license and is governed by `LICENSE.engine`.
